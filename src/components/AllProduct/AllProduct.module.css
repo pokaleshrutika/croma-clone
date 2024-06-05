@@ -1,0 +1,118 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  margin: auto;
+}
+.all_Product_container {
+  flex-grow: 1;
+  overflow: scroll;
+  overscroll-behavior: contain;
+  margin-top: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 600px;
+  max-width: 100%;
+}
+.shorbutton {
+  color: black;
+  border-radius: 5px;
+  background-color: #12daa8;
+  padding: 5px 10px;
+}
+.productNotFount {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 22px;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+}
+.AllProductContainer {
+  display: flex;
+  justify-content: center;
+}
+.FilterSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px 0px 0px;
+}
+.priceRange{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.filterBox{
+  display: flex;
+  flex-direction: column;
+}
+.rattingOption{
+  width: fit-content;
+  height: 26px;
+  padding: 0px 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: gray;
+}
+.applyButton{
+  margin: 0;
+  padding: 0px 16px;
+  width: fit-content;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: gray;
+}
+.sellertage{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.selecttage{
+  width: fit-content;
+  height: 30px;
+  padding: 0px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: gray;
+}
+.prevision_slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 0px;
+  border-radius: 5px;
+  background: #a3a3a3;
+  outline: none;
+  padding: 0;
+  margin-top: 14px;
+}
+
+.prevision_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.prevision_slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .FilterSection{
+      display: none;
+  }
+}
